@@ -1,0 +1,577 @@
+:root{
+    --main-color: rgb(23,62,98);
+    --main-hovered-color: #bda588; 
+}   
+/*======== Global Styling ======*/
+html{
+    font-size: 20px;
+}
+section a{
+    text-decoration: none;
+}
+
+
+body{
+    font-family: "Tajawal",sans-serif;
+    height: 2000px;
+    margin:0;
+    padding:0;
+    border:0;
+    direction:rtl !important;
+}
+body > nav > div > a > img{
+    width: 70%;
+}
+
+section.main{
+    margin: 5rem auto;
+}
+
+.main-color{
+    color: var(var(--main-color))!important
+
+}
+.main-bgcolor{
+background-color: var(--main-color)!important;
+color:#fff;
+}
+
+
+.overlay{
+    height: 100%;
+    background-color: rgba(18, 15, 65, 0.7);
+    margin:0;
+    z-index: 1000;
+
+}
+
+.main-btn{
+    background-color: var(--main-color);
+    border-radius: 20px;
+    color: #fff;
+    font-size: 14px;
+    transition: all ease .3s
+}
+.main-btn:hover{
+    background-color: var(--main-hovered-color);
+    color: #fff
+}
+/*======== /Global Styling ======*/
+
+header{
+    background-image: url("/assets/images/header1.jpg");
+    background-size: cover;
+    padding: 0 !important;
+    margin-top: -150px;
+}
+section{
+
+    padding: 0.3rem 1.5rem;
+    margin-top: 29rem;
+    margin-right: -7.2rem;
+}
+
+/*================= navabar styluing ===========*/
+ .navbar{
+    padding: 20px 0;
+    transition: all ease .5s
+}
+
+ .navbar.navbar-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #fff;
+    z-index: 2000;
+}
+ .navbar .navbar-brand{
+    font-weight: 900;
+    color: #fff;
+}
+.navbar.navbar-fixed .navbar-brand{
+    color: #333
+}
+
+ .navbar .navbar-nav li{
+    margin: 0 20px
+}
+ .navbar .navbar-nav li a.nav-link{
+    border-bottom: 1px solid transparent;
+    transition: all ease-in-out .4s;    
+    padding: 0 !important;
+    padding-bottom: 6px !important;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+.navbar.navbar-fixed .navbar-nav li a.nav-link{
+    color: #333;
+}
+
+ .navbar .navbar-nav li.active a.nav-link, header .navbar .navbar-nav li:hover a.nav-link{
+    border-color: #fff
+}
+ .navbar.navbar-fixed .navbar-nav li.active a.nav-link, .navbar.navbar-fixed .navbar-nav li:hover a.nav-link{
+    border-color: var(--main-color)
+}
+
+/*================= /navbar styluing ===========*/
+
+header .header-content{
+    padding: 30vh 0;
+}
+header .header-content .info h1{
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 25px;
+    margin-bottom:2rem
+}
+header .header-content .info p{
+    color:white;
+}
+header .header-content .info a{
+    padding: 10px 35px;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase
+}
+header .header-content .form-data{
+    padding: 40px 30px;
+    background-color: #fff;
+    margin-top: -70px;
+    border-radius: 10px
+}
+header .header-content .form-data h4{
+    margin-bottom: 20px
+}
+header .header-content .form-data form input:not([type="submit"]){
+    padding: 23px 10px
+}
+header .header-content .form-data form input.main-btn{
+    padding: 12px 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 12px
+}
+
+
+/* =======end of header====== */
+
+
+/* ==============SECTION من نحن============ */
+#whoWeAre{
+    margin-bottom:10px ;
+    margin-top:2rem;
+}
+span.sub-title{
+    font-size: 1.7rem !important;
+    font-weight: 800;
+    color: rgb(189,165,136);
+
+}
+
+/* counter */
+
+#counter{
+    font-size: 3rem;
+    font-weight: 600;;
+    color: rgb(189,165,136);
+    margin-right: -3rem;
+
+}
+#whoWeAre .my-paragraph > h2 > p{
+    font-size: 1rem;
+    text-align: justify;
+    color: rgb(23,62,98);
+
+}
+
+.plus-sign{
+    font-size: 2.2rem;
+    color: rgb(189,165,136);
+}
+#whoWeAre span.plus-desc{
+    color: rgb(189,165,136);
+    font-size: 2rem;
+}
+
+/* ==============End SECTION من نحن============ */
+/* ==============start SECTION mission============ */
+
+#mission .rectangle{
+    position: absolute;
+   
+    width: 60rem;
+    height: 27rem;
+    background: #F7F2EE;
+    margin-right: -6rem;
+    z-index: 1;
+    border-radius: 2%;
+
+
+}
+#mission > div > div > div > img{
+    position: absolute !important;
+    /* margin-right: -7px!important; */
+    z-index: 9 !important;
+    height: 21rem !important;
+    width: 27rem !important;
+    margin-top: 70px !important;
+    left: 6.5rem !important;
+    border-radius: 2%;
+
+}
+#mission > div > div > div > div.col-md-10.rectangle > div > span > p{
+
+    margin-top: 5rem;
+    font-size: 30px;
+    font-weight: 900;
+    z-index: 1000;
+    margin-right: 1rem;
+}
+
+
+/* كلمتي الرويه و الرساله */
+#mission > div > div > div > div.col-md-10.rectangle > div > div > span > p, 
+#mission > div > div > div > div.col-md-10.rectangle > div > div > span > span > span > p{
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(23,62,98);
+}
+/* باجراف اسفل الويه و الرساله */
+#mission > div > div > div > div.col-md-10.rectangle > div > div > span > span > p, #mission > div > div > div > div.col-md-10.rectangle > div > div > span > span > span > span > p{
+
+    font-size: 18px;
+    color: rgb(23,62,98);
+    text-align: justify;
+
+}
+
+/* whole rectangle paragraph */
+#mission > div > div > div > div.col-md-10.rectangle > div > div{
+    margin-top: 5rem;
+    margin-right: 8rem;
+}
+/* اعرف المزيد عنا */
+#mission > div > div > div > div.col-md-10.rectangle > div > div > span > span > span > span > a > p > strong{
+    color: rgb(189,165,136);
+    border-bottom: 2px solid rgb(189,165,136);
+    text-decoration: none;
+
+
+}
+/* arrow اعرف المزيد عنا */
+#mission > div > div > div > div.col-md-10.rectangle > div > div > span > span > span > span > a > p > strong > i{
+margin: 7px;
+}
+/* a of اعرف المزيد  */
+#mission > div > div > div > div.col-md-10.rectangle > div > div > span > span > span > span > a{
+    text-decoration: none;
+}
+
+/* ==============end SECTION mission============ */
+/* ==============start SECTION featured projects============ */
+
+#featured{
+    margin-top: 32rem;
+}
+
+#featured .thumb1 > img{
+    margin: 10px 7px;
+}
+
+#featured > div > div > div:nth-child(2) > a > div > img{
+    margin-top: 10px;
+}
+
+/* container of image */
+#featured > div > div > div:nth-child(3) > a:nth-child(1) > div {
+    display: inline-block;
+  overflow: hidden;
+  /* height: 300px; */
+}
+
+#featured > div img{
+    /* display: block; */
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  /* transition: all 0.3s; */
+  transition: transform .5s ease;
+
+}
+#featured > div > div > div:nth-child(3) > a:nth-child(1) > div:hover img, 
+#featured > div > div > div:nth-child(3) > a:nth-child(2) > div:hover img,
+#featured > div > div > div:nth-child(2) > a > div:hover img,
+#featured > div > div > div:nth-child(1) > a:nth-child(1) > div:hover img,
+#featured > div > div > div:nth-child(1) > a:nth-child(2) > div:hover img
+
+{
+    -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+
+}
+/* مشاريع مميزه */
+#featured > div > div.d-flex.justify-content-between > div:nth-child(1) > span > p{
+    /* color: var(--main-color); */
+    font-size: 25px;
+    color: var(--main-color);
+}
+/* شاهد مشاريعنا الأخرى */
+#featured > div > div.d-flex.justify-content-between > div:nth-child(2) > a{
+    text-decoration: none;
+}
+
+#featured > div > div.d-flex.justify-content-between > div:nth-child(2) > a > p > strong{
+    font-size: 20px;
+    color: rgb(189,165,136) !important;
+    border-bottom: 2px solid rgb(189,165,136);
+    text-decoration: none;
+}
+
+  
+/* ==============end SECTION featured projects============ */
+/* ==============start SECTION why choose us============ */
+/* button */
+#mission > div > div > div > div.col-md-6 > div.rec-buttons > button{
+    margin-left: 27rem;
+    margin-top: -22rem;
+}
+#mission > div > div > div > div.col-md-10.rectangle > div > div > div.title-parag.parag1.parag2{
+    text-align: center;
+}
+
+#mission  > div > div > div > div.col-md-6{
+
+    z-index: 999;
+    position: absolute;
+    margin-right: 20rem;
+    margin-top: 5rem;
+}
+#carouselExampleControls{
+    width: 27rem;
+    margin-right: 10rem;
+    margin-top: -1rem;
+
+}
+
+/* icon */
+#mission > div > div > div > div.col-md-10.rectangle > div > div > div.icon{
+    margin-left: 10rem;
+
+}
+/* ==============end SECTION why choose us============ */
+/* buttons next to carousel */
+#mission > div > div > div > div.col-md-10.rectangle > div.col-md-4 > div{
+    margin-top: 10rem;
+    margin-left: 6rem;
+}
+
+/* start section sectors */
+
+
+body > section.sectors > div > div > div > div.unit.unit1.col-md-4 > div.title > h5,
+body > section.sectors > div > div > div > div.unit.unit2.col-md-4 > div.title > h5,
+body > section.sectors > div > div > div > div.unit.unit3.col-md-4 > div.title > h5
+{
+
+    font-size: 18px;
+    color: var(--main-color);
+    text-align: center;
+    margin: 15px;
+    margin-right: 7rem;
+}
+
+.unit img{
+    margin-left: 0.9rem;
+
+}
+
+/*  عناوين مشاريع سكنية */
+body > section.sectors > div > div > div > div.unit.unit1.col-md-4 > div.title > h5,
+body > section.sectors > div > div > div > div.unit.unit2.col-md-4 > div.title > h5
+{
+    margin-left: 1rem;
+    font-weight: 800;
+}
+
+body > section.sectors > div > div > div > div.unit.unit3.col-md-4 > div.title > h5
+{
+    margin-left: 3rem;
+    font-weight: 800;
+}
+
+/* paragraph  */
+body > section.sectors > div > div > div > div.unit.unit1.col-md-4 > div.desc > h5,
+body > section.sectors > div > div > div > div.unit.unit2.col-md-4 > div.desc > h5,
+body > section.sectors > div > div > div > div.unit.unit3.col-md-4 > div.desc > h5{
+    font-size: 18px;
+    text-align: center;
+    margin-right: 6rem;
+}
+
+/* اكتشف المزيد */
+body > section.sectors > div > div > div > div.unit.unit1.col-md-4 > a > p > strong,
+body > section.sectors > div > div > div > div.unit.unit2.col-md-4 > a > p > strong,
+body > section.sectors > div > div > div > div.unit.unit3.col-md-4 > a > p > strong
+{
+    font-size: 14px;
+    margin-right: 9rem;
+    color: rgb(189,165,136);
+
+}
+
+body > section.sectors > div > div > div > div.unit.unit3.col-md-4 > a,
+body > section.sectors > div > div > div > div.unit.unit2.col-md-4 > a,
+body > section.sectors > div > div > div > div.unit.unit1.col-md-4 > a
+{
+    text-decoration: none;
+}
+/* end section sectors */
+
+/* start section footer */
+
+#footer{
+    height: 30rem;
+    background-image: url("/assets/images/header1.jpg");
+
+    background-size: cover;
+    padding: 0 !important;
+    margin-top: 2rem;
+
+}
+#footer > div{
+    height: 63%;
+       opacity: 0.9;
+    margin:0;
+    z-index: 1000;
+    background-image: linear-gradient(to bottom, rgba(23,62,98), rgb(14, 10, 26)); 
+    
+
+}
+#footer > div.d-flex.flex-row.mr-5 > div.footer-parag{
+    margin-top: -2rem;
+}
+/* تواصل معنا */
+#footer > div > div.footer-parag > div > h2 {
+    color: white;
+    font-size: 20px;
+    margin-right: 11rem;
+    margin-top: 5rem;
+
+}
+#footer > div > div.footer-parag > div.d-flex h2{
+    color: white;
+    font-size: 20px;
+    margin-right: 11rem;
+    margin-top: 5rem;
+    
+}
+#footer > div > div.footer-parag > div.d-flex{
+    margin-top: -3rem;
+}
+#footer > div > div.footer-parag > div.d-flex > div.footer-tel > h2:nth-child(2)
+{
+    margin-top: 0rem !important;
+}
+
+#footer > div > div.footer-parag > div.d-flex > div.footer-tel > h1:nth-child(2),
+#footer > div > div.footer-parag > div.d-flex > div.footer-tel > h1:nth-child(3),
+#footer > div > div.footer-parag > div.d-flex > div.footer-tel > h1:nth-child(4),
+#footer > div > div.footer-parag > div.d-flex > div.footer-email > h2:nth-child(2){
+    color: white;
+    font-size: 20px;
+    margin-right: 11rem;
+    margin-top: 1rem;
+    
+}
+/* social media */
+#footer > div > div.footer-parag > div.d-flex > div.footer-email > div > div{
+    margin-right: 10px;
+}
+#footer > div > div.footer-parag > div.d-flex > div.footer-email > div{
+    margin-right: 11rem;
+    border-bottom: solid 1px white;
+
+}
+/* footer-bottom */
+/* من نحن */
+#footer > div.d-flex.justify-content-center > div.about-us.col-md-3 > h6{
+    font-size: 15px;
+}
+#footer > div.d-flex.justify-content-center > div.about-us.col-md-3
+{
+    color: white;
+    font-size: 14px;
+    margin-right: 28rem;
+    text-align: center;
+}
+#footer > div.d-flex.justify-content-center > div.company-info.col-md-3 a{
+    color: white;
+    font-size: 14px;
+    /* margin-right: 28rem; */
+    text-align: center;
+}
+/* معلومات عن الشركة */
+#footer > div.d-flex.justify-content-center > div.company-info.col-md-3{
+    text-align: justify;
+    margin-right: 4rem;
+
+}
+#footer > div.d-flex.justify-content-center > div.company-info.col-md-3 > div > div.title > h6,
+#footer > div.d-flex.justify-content-center > div.useful-links.col-md-3 > div.info > h6,
+#footer > div.d-flex.justify-content-center > div.useful-links.col-md-3 > div.info > h6
+{
+
+  font-size: 14px;
+}
+#footer > div.d-flex.justify-content-center > div.useful-links.col-md-3 > div.unit a{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-right: -2rem;
+
+}
+#footer > div.d-flex.justify-content-center > div.useful-links.col-md-3 > div.unit{
+    margin-left:14rem;
+    text-align: justify;
+}
+#footer > div.d-flex.justify-content-center > div.useful-links.col-md-3 > div.info > h6{
+    margin-right: -2rem;
+}
+/* عمود من نحن */
+#footer > div.d-flex.justify-content-center > div.about-us.col-md-3,
+#footer > div.d-flex.justify-content-center > div.company-info.col-md-3,
+#footer > div.d-flex.justify-content-center > div.useful-links.col-md-3{
+    margin-top: 1rem;
+    
+}
+#footer > div.d-flex.justify-content-center > div.about-us.col-md-3{
+    margin-right: 12rem;
+}
+
+body > div > h6{
+color: white;
+    z-index: 9999;
+    position: relative;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+body > div > form{
+    color: white;
+    z-index: 9999;
+    position: relative;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+body > div > form > input{
+    width: 20% !important;
+}
+/* تواصل معنا عبر البريد الألكتروني
+ */
+body > div{
+    margin-right:3rem;
+
+}

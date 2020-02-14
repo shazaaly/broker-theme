@@ -1,0 +1,446 @@
+/* @import "\laPlage\assets\css\capital.css";  */
+:root{
+    --main-color: rgb(23,62,98);
+    --main-hovered-color: #bda588; 
+}   
+/*======== Global Styling ======*/
+html{
+    font-size: 20px;
+}
+
+section a{
+    text-decoration: none;
+}
+
+h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+p{
+    font-size: 12px;
+}
+
+body{
+    font-family: "Tajawal",sans-serif;
+    height: 2000px;
+    margin:0;
+    padding:0;
+    border:0;
+    direction:rtl !important;
+}
+body > nav > div > a > img{
+    width: 70%;
+
+}
+/* section{
+    padding: 40px 0;
+} */
+section.main{
+    margin: 5rem auto;
+}
+
+.main-color{
+    color: var(var(--main-color))!important
+
+}
+.main-bgcolor{
+background-color: var(--main-color)!important;
+color:#fff;
+}
+
+
+.overlay{
+    height: 100%;
+    background-color: rgba(18, 15, 65, 0.7);
+    margin:0;
+    z-index: 1000;
+
+}
+
+.main-btn{
+    background-color: var(--main-color);
+    border-radius: 20px;
+    color: #fff;
+    font-size: 14px;
+    transition: all ease .3s
+}
+.main-btn:hover{
+    background-color: var(--main-hovered-color);
+    color: #fff
+}
+/*======== /Global Styling ======*/
+
+header{
+    background-image: url("../images/New-Capital.jpg");
+    background-size: cover;
+    padding: 0 !important;
+    margin-top: -150px;
+}
+section{
+
+    padding: 0.3rem 1.5rem;
+    margin-top: 0rem;
+    margin-right: -7.2rem;
+}
+
+/*================= navabar styluing ===========*/
+ 
+
+header .header-content{
+    padding: 30vh 0;
+}
+header .header-content .info h1{
+    font-weight: 900;
+    font-size: 24px;
+    margin-bottom: 25px;
+    margin-bottom:2rem
+}
+header .header-content .info p{
+    color:white;
+}
+header .header-content .info a{
+    padding: 10px 35px;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase
+}
+header .header-content .form-data{
+    padding: 40px 30px;
+    background-color: #fff;
+    margin-top: -70px;
+    border-radius: 10px
+}
+header .header-content .form-data h4{
+    margin-bottom: 20px
+}
+header .header-content .form-data form input:not([type="submit"]){
+    padding: 23px 10px
+}
+header .header-content .form-data form input.main-btn{
+    padding: 12px 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 12px
+}
+/* start capital customized header */
+
+body > header > div > div > div > div > div.col-md-6 > div > h6{
+    font-size: 22px;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    letter-spacing: 2px;
+}
+/* card */
+body > header > div > div > div > div > div.col-md-6 > div > div > div > h5{
+    color: rgb(70,67,102);
+    font-size: 1rem;
+}
+body > header > div > div > div > div > div.col-md-6 > div > div > div > p.card-subtitle.mb-2.text-muted{
+    font-size: 15px;
+}
+body > header > div > div > div > div > div.col-md-6 > div > div > div > p.card-text{
+    font-size: 14px;
+    color: var(--main-color);
+}
+body > header > div > div > div > div > div.col-md-6 > div > div > div > span:nth-child(5),
+body > header > div > div > div > div > div.col-md-6 > div > div > div > span:nth-child(4),
+body > header > div > div > div > div > div.col-md-6 > div > div > div > span:nth-child(6){
+    color: var(--main-color);
+    font-size: 14px;
+    padding: 0.2rem 0.5rem;
+    text-align: justify;
+}
+body > header > div > div > div > div > div.col-md-6 > div > div > div > span:nth-child(4){
+    margin-left: 1.8rem;
+}
+body > header > div > div > div > div > div.col-md-6 > div > div{
+    margin-right: 4rem;
+    width:16rem;
+    border-radius: 62px;
+    background-color: #f5f5f5;
+    /* background: lnear-gradient(45deg, beige, transparent) */
+    box-shadow: 20px 30px 50px 20px rgba(236, 228, 228, 0.3);
+    
+}
+/* end capital customized header */
+
+/* =======end of header====== */
+
+ /* start sticky section*/
+ #sticky{
+     height:5rem;
+     z-index: 10000;
+
+ }
+ 
+ #sticky > nav > div > ul{
+    box-shadow: 20px 30px 50px 50px rgba(236, 228, 228, 0.3);
+    margin-right: 26rem;
+    /* position: fixed; */
+    z-index: 10000;
+    background-color: white;
+    margin-top: -3rem;
+    padding: 0.8rem;
+    border-radius: 62px;
+
+     
+ }
+ #sticky > nav > div > ul > li.nav-item.my-li > a{
+    margin-right: 3rem;
+ }
+ #sticky > nav > div > ul > li.nav-item a{
+     color: black;
+ }
+ /* w3 */
+ #sticky > nav{
+    position: -webkit-sticky !important;
+    position: sticky;
+    top: 2rem;
+ }
+ 
+ /* end sticky section*/
+ /* start section capital */
+ #capital{
+     z-index: 3;
+     padding: 10px;
+ }
+ #capital > div > div.desc.col-md-4 > p,
+ #capital > div > div:nth-child(3){
+     font-size: 16px;
+     text-align: justify;
+ }
+ #capital > div > div:nth-child(1) > img{
+    width: 100%;
+    border-radius: 20px;
+ }
+/* projects */
+#projects > div > div.row.projects-item > div > div > div.slide > div.main-info{
+    padding: 5px 0;
+    /* margin-left: 0rem; */
+    margin-right: 0.95rem;
+}
+#projects > div > div.row.projects-item > div > div > div.main-info > div.project-name > p{
+    text-overflow: clip;
+    text-align: center;
+}
+#projects > div > div.row.projects-item > div > div > div.slide > div.main-info > div.project-name > h3{
+    margin-left: 6rem;
+}
+#projects > div > div.row.projects-item > div > div > div.slide > div.main-info > div.project-name > p{
+    text-align: justify;
+}
+#projects > div > div.row.projects-item > div > div > div.slide > div.price span{
+    display:inline-block;
+    background-color: var(--main-color);
+    background-size: contain;
+    color: white;
+    padding: 5px;
+    border-radius: 80px;
+    font-weight: 100;
+    margin-left: 10.5rem;
+    font-size: 10px;
+    margin-top: -2rem;
+}
+#projects > div > div.row.projects-item > div > div > div.slide > div.main-info > div.location.d-flex{
+    margin-top: 8px;
+}
+#projects > div > div.row.projects-item > div > div {
+
+    position: relative;
+    transition: all .4s ease-in-out;
+    color: gray;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15), -2px 2px 4px rgba(0, 0, 0, 0.15);
+
+
+}
+#projects > div > div.row.projects-item > div > div:hover{
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
+    transform: translateY(-10px);
+}
+#projects > div > div.row.projects-item > div > div > div.slide > div.main-info{
+    padding: 5px 10px;
+}
+
+#projects > div > div.row.projects-item > div:nth-child(3) > div,
+#projects > div > div.row.projects-item > div:nth-child(2) > div,
+#projects > div > div.row.projects-item > div:nth-child(1) > div{
+    width: 284px;
+}
+#projects{
+    padding: 0.3rem 1.5rem;
+    margin-top: 2rem;
+    margin-right: 3.8rem;
+
+}
+#projects > div > div.row.projects-item > div:nth-child(1) > div > div.img-holder > img{
+    width: 100%;
+    height: 8.9rem;
+}
+#projects > div > div.title > h6{
+    color: var(--main-color);
+    padding: 30px;
+}
+#projects{
+    padding: 30px;
+}
+
+
+ 
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+ 
+/* start section footer */
+
+#footer{
+    height: 30rem;
+    background-image: url("/assets/images/header1.jpg");
+
+    background-size: cover;
+    padding: 0 !important;
+    margin-top: 2rem;
+
+}
+#footer > div{
+    height: 63%;
+       opacity: 0.9;
+    margin:0;
+    z-index: 1000;
+    background-image: linear-gradient(to bottom, rgba(23,62,98), rgb(14, 10, 26)); 
+    
+
+}
+#footer > div.d-flex.flex-row.mr-5 > div.footer-parag{
+    margin-top: -2rem;
+}
+/* تواصل معنا */
+#footer > div > div.footer-parag > div > h2 {
+    color: white;
+    font-size: 20px;
+    margin-right: 11rem;
+    margin-top: 5rem;
+
+}
+#footer > div > div.footer-parag > div.d-flex h2{
+    color: white;
+    font-size: 20px;
+    margin-right: 11rem;
+    margin-top: 5rem;
+    
+}
+#footer > div > div.footer-parag > div.d-flex{
+    margin-top: -3rem;
+}
+#footer > div > div.footer-parag > div.d-flex > div.footer-tel > h2:nth-child(2)
+{
+    margin-top: 0rem !important;
+}
+
+#footer > div > div.footer-parag > div.d-flex > div.footer-tel > h1:nth-child(2),
+#footer > div > div.footer-parag > div.d-flex > div.footer-tel > h1:nth-child(3),
+#footer > div > div.footer-parag > div.d-flex > div.footer-tel > h1:nth-child(4),
+#footer > div > div.footer-parag > div.d-flex > div.footer-email > h2:nth-child(2){
+    color: white;
+    font-size: 20px;
+    margin-right: 11rem;
+    margin-top: 1rem;
+    
+}
+/* social media */
+#footer > div > div.footer-parag > div.d-flex > div.footer-email > div > div{
+    margin-right: 10px;
+}
+#footer > div > div.footer-parag > div.d-flex > div.footer-email > div{
+    margin-right: 11rem;
+    border-bottom: solid 1px white;
+
+}
+/* footer-bottom */
+/* من نحن */
+#footer > div.d-flex.justify-content-center > div.about-us.col-md-3 > h6{
+    font-size: 15px;
+}
+#footer > div.d-flex.justify-content-center > div.about-us.col-md-3
+{
+    color: white;
+    font-size: 14px;
+    margin-right: 28rem;
+    text-align: center;
+}
+#footer > div.d-flex.justify-content-center > div.company-info.col-md-3 a{
+    color: white;
+    font-size: 14px;
+    /* margin-right: 28rem; */
+    text-align: center;
+}
+/* معلومات عن الشركة */
+#footer > div.d-flex.justify-content-center > div.company-info.col-md-3{
+    text-align: justify;
+    margin-right: 4rem;
+
+}
+#footer > div.d-flex.justify-content-center > div.company-info.col-md-3 > div > div.title > h6,
+#footer > div.d-flex.justify-content-center > div.useful-links.col-md-3 > div.info > h6,
+#footer > div.d-flex.justify-content-center > div.useful-links.col-md-3 > div.info > h6
+{
+
+  font-size: 14px;
+}
+#footer > div.d-flex.justify-content-center > div.useful-links.col-md-3 > div.unit a{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    margin-right: -2rem;
+
+}
+#footer > div.d-flex.justify-content-center > div.useful-links.col-md-3 > div.unit{
+    margin-left:14rem;
+    text-align: justify;
+}
+#footer > div.d-flex.justify-content-center > div.useful-links.col-md-3 > div.info > h6{
+    margin-right: -2rem;
+}
+/* عمود من نحن */
+#footer > div.d-flex.justify-content-center > div.about-us.col-md-3,
+#footer > div.d-flex.justify-content-center > div.company-info.col-md-3,
+#footer > div.d-flex.justify-content-center > div.useful-links.col-md-3{
+    margin-top: 1rem;
+    
+}
+#footer > div.d-flex.justify-content-center > div.about-us.col-md-3{
+    margin-right: 12rem;
+}
+
+/* body > div > h6{
+color: white;
+    z-index: 9999;
+    position: relative;
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+body > div > form{
+    color: white;
+    z-index: 9999;
+    position: relative;
+    margin-top: 1rem;
+    margin-right: 2rem;
+}
+body > div > form > input{
+    width: 20% !important;
+}
+/* تواصل معنا عبر البريد الألكتروني
+ */
+/* body > div{
+    margin-right:3rem;
+
+} */ 

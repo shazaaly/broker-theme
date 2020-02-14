@@ -1,0 +1,23 @@
+{
+  "name": "npm_projecy",
+  "version": "1.0.0",
+  "description": "\"ay llsjdsd dlkjiodj\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "\"ehab\"",
+  "license": "ISC",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^4.3.1",
+    "carousel": "0.0.3",
+    "countup.js": "^2.0.4",
+    "fontawesome": "^5.6.3",
+    "jquery": "^3.4.1",
+    "swiper": "^5.3.0"
+  },
+  "devDependencies": {
+    "select2": "^4.0.8"
+  }
+}
