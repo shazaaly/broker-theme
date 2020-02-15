@@ -39,7 +39,7 @@ color:#fff;
 
 .overlay{
     height: 100%;
-    background-color: rgba(18, 15, 65, 0.7);
+    /* background-color: rgba(18, 15, 65, 0.7); */
     margin:0;
     z-index: 1000;
 
@@ -59,10 +59,32 @@ color:#fff;
 /*======== /Global Styling ======*/
 
 header{
-    background-image: url("/assets/images/header1.jpg");
+    /* background-image: url("/assets/images/header1.jpg"); */
     background-size: cover;
     padding: 0 !important;
     margin-top: -150px;
+}
+body > header > div.overlay > div{
+    z-index: 900;
+    margin-top: -8rem;
+}
+.my-carousel{
+    z-index: 500;
+    margin-top: -6rem;
+    
+}
+/* logo */
+body > header > nav > div > a > img{
+    width: 70%;
+}
+body > header > div.overlay > div > div > div > div.col-md-6 > div{
+    padding: 2rem;
+}
+
+body > header > div.overlay > div > div > div > div.col-md-6{
+
+    z-index: 1000;
+    margin-top: -30rem;
 }
 section{
 
@@ -73,8 +95,10 @@ section{
 
 /*================= navabar styluing ===========*/
  .navbar{
-    padding: 20px 0;
-    transition: all ease .5s
+    padding:0;
+    transition: all ease .5s;
+    margin-top: 8rem;
+    z-index: 1000;
 }
 
  .navbar.navbar-fixed{
@@ -163,7 +187,7 @@ header .header-content .form-data form input.main-btn{
 /* ==============SECTION من نحن============ */
 #whoWeAre{
     margin-bottom:10px ;
-    margin-top:2rem;
+    margin-top:-8rem;
 }
 span.sub-title{
     font-size: 1.7rem !important;
@@ -282,8 +306,13 @@ margin: 7px;
     margin: 10px 7px;
 }
 
+
 #featured > div > div > div:nth-child(2) > a > div > img{
     margin-top: 10px;
+}
+#featured > div > div.row > div:nth-child(2) > a > div > img{
+
+    margin-top: -6rem;
 }
 
 /* container of image */

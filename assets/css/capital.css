@@ -1,4 +1,6 @@
 /* @import "\laPlage\assets\css\capital.css";  */
+@import "../node_modules/bootstrap/scss/bootstrap";
+
 :root{
     --main-color: rgb(23,62,98);
     --main-hovered-color: #bda588; 
@@ -85,6 +87,95 @@ section{
 
 /*================= navabar styluing ===========*/
  
+#headerCapital{
+    padding: 0.3rem 0;
+    margin-top: -9rem;
+    margin-right: -2.2rem;
+
+}
+
+#headerCapital > header > div > div > div > div > div.card.my-card{
+    margin-top: 3rem;
+}
+#headerCapital > header > div > div > div > div > div.card > div > h5{
+ font-size: 16px;   
+}
+#headerCapital > nav{
+    padding: 0;
+    transition: all ease .5s;
+    margin-top: 10rem;
+    z-index: 1000;
+}
+#headerCapital > header > div > div > div > div > div.col-md-6 > div{
+
+    width: 57%;
+}
+
+/* #headerCapital > header > div > div > div > div > div.col-md-6 > div > div > div > h5,
+#headerCapital > header > div > div > div > div > div > div.col-md-6 > div > div > span:nth-child(5),
+#headerCapital > header > div > div > div > div > div.col-md-6 > div > div > div > span:nth-child(6),
+#headerCapital > header > div > div > div > div > div.col-md-6 > div > div > div > p.card-text > u
+{
+    color: var(--main-color);
+} */
+/* #headerCapital > header > div > div > div > div > div.col-md-6 > div > div > div > span:nth-child(5),
+#headerCapital > header > div > div > div > div > div.col-md-6 > div > div > div > span:nth-child(6),
+#headerCapital > header > div > div > div > div > div.col-md-6 > div > div > div > p.card-text > u
+{
+    font-size: 16px;
+    font-weight: 500;
+} */
+#headerCapital > header > div > div > div > div > div.col-md-6 > div > div > div > span:nth-child(5){
+    margin-left: 35px;
+}
+#headerCapital > header > div > div > div > div > div.col-md-6 > div{
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+
+}
+#headerCapital > header > div > div > div > div > div.col-md-8 > div.info.text-light.aos-init > h6{
+    margin-top: 4rem;
+    margin-left: 12rem;
+
+}
+#headerCapital > header > div > div > div > div > div > div.col-md-6 > div > div{
+    /* background:rgb(209, 223, 236) !important; */
+    border: none;
+    /* opacity: 0.2; */
+}
+/* made by  card figma */
+
+#headerCapital > header > div > div > div > div > div > div.col-md-6 > div{
+position: absolute;
+width: 10rem;
+height: 7rem;
+border: none;
+z-index: 50;
+background: rgb(255, 251, 251);
+opacity:0.1;
+border-radius: 80px;
+color: var(--main-color);
+}
+#headerCapital > header > div > div > div > div > div > div.col-md-6.aos-init.aos-animate > span:nth-child(5){
+    margin-left: 2.2rem;
+}
+#headerCapital > header > div > div > div > div > div > div.col-md-6.aos-init.aos-animate > h6,
+#headerCapital > header > div > div > div > div > div > div.col-md-6.aos-init.aos-animate > p.card-subtitle.text-muted,
+#headerCapital > header > div > div > div > div > div > div.col-md-6.aos-init.aos-animate > p.card-text,
+#headerCapital > header > div > div > div > div > div > div.col-md-6.aos-init.aos-animate > span:nth-child(5),
+#headerCapital > header > div > div > div > div > div > div.col-md-6.aos-init.aos-animate > span:nth-child(6){
+    color: white !important;
+    font-weight: 500;
+    z-index: 3000;
+}
+/* text inside card */
+/* #headerCapital > header > div > div > div > div > div > div.col-md-6 > div > h6,
+#headerCapital > header > div > div > div > div > div > div.col-md-6 > div > p.card-subtitle.text-muted,
+#headerCapital > header > div > div > div > div > div > div.col-md-6 > div > span:nth-child(5),
+#headerCapital > header > div > div > div > div > div > div.col-md-6 > div > span:nth-child(6){
+    color: white !important;
+    z-index: 2000;
+} */
 
 header .header-content{
     padding: 30vh 0;
@@ -104,24 +195,7 @@ header .header-content .info a{
     font-size: 13px;
     text-transform: uppercase
 }
-header .header-content .form-data{
-    padding: 40px 30px;
-    background-color: #fff;
-    margin-top: -70px;
-    border-radius: 10px
-}
-header .header-content .form-data h4{
-    margin-bottom: 20px
-}
-header .header-content .form-data form input:not([type="submit"]){
-    padding: 23px 10px
-}
-header .header-content .form-data form input.main-btn{
-    padding: 12px 25px;
-    font-weight: 900;
-    text-transform: uppercase;
-    font-size: 12px
-}
+
 /* start capital customized header */
 
 body > header > div > div > div > div > div.col-md-6 > div > h6{
@@ -131,39 +205,7 @@ body > header > div > div > div > div > div.col-md-6 > div > h6{
     text-align: center;
     letter-spacing: 2px;
 }
-/* card */
-body > header > div > div > div > div > div.col-md-6 > div > div > div > h5{
-    color: rgb(70,67,102);
-    font-size: 1rem;
-}
-body > header > div > div > div > div > div.col-md-6 > div > div > div > p.card-subtitle.mb-2.text-muted{
-    font-size: 15px;
-}
-body > header > div > div > div > div > div.col-md-6 > div > div > div > p.card-text{
-    font-size: 14px;
-    color: var(--main-color);
-}
-body > header > div > div > div > div > div.col-md-6 > div > div > div > span:nth-child(5),
-body > header > div > div > div > div > div.col-md-6 > div > div > div > span:nth-child(4),
-body > header > div > div > div > div > div.col-md-6 > div > div > div > span:nth-child(6){
-    color: var(--main-color);
-    font-size: 14px;
-    padding: 0.2rem 0.5rem;
-    text-align: justify;
-}
-body > header > div > div > div > div > div.col-md-6 > div > div > div > span:nth-child(4){
-    margin-left: 1.8rem;
-}
-body > header > div > div > div > div > div.col-md-6 > div > div{
-    margin-right: 4rem;
-    width:16rem;
-    border-radius: 62px;
-    background-color: #f5f5f5;
-    /* background: lnear-gradient(45deg, beige, transparent) */
-    box-shadow: 20px 30px 50px 20px rgba(236, 228, 228, 0.3);
-    
-}
-/* end capital customized header */
+
 
 /* =======end of header====== */
 
@@ -180,7 +222,7 @@ body > header > div > div > div > div > div.col-md-6 > div > div{
     /* position: fixed; */
     z-index: 10000;
     background-color: white;
-    margin-top: -3rem;
+    margin-top: -17rem;
     padding: 0.8rem;
     border-radius: 62px;
 
