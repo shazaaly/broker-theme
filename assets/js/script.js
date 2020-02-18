@@ -17,14 +17,14 @@ $(function () {
     }
   }
 
-  countup();
+countup();
   // counter end//
   // section gallery:
   
 
      
   $("#mission span.carousel-control-next-icon").click(function(){
-   $("#mission .title-parag").html('أفضل مولات العاصمة الإداريه  بمساحات أكثر من 2 فدان وري و طبي ');
+   $("#mission .title-parag").html('يعد مول العاصمة الطبية – مشروع العاصمة الطبية المول الطبي الأول من نوعه بالعاصمة الإدارية الجديدة، وهو عبارة عن مول طبي كامل الخدمات، يجمع بين التشطيبات الفاخرة والمساحات الخضراء الكبيرة في أرقى المناطق بالعاصمة، مع مجموعة كبيرة من المميزات وأسعار وطرق سداد مناسبة.');
     
    $("#mission span.carousel-control-next-icon").click(function(){
     $("#mission .title-parag").html('أفضل مولات العاصمة الإداريه   و تحتوي على عيادات و تجاري و طبي ');
@@ -34,7 +34,7 @@ $(function () {
 
       });
       $("#mission span.carousel-control-next-icon").click(function(){
-        $("#mission .title-parag").html(' يحتوي الحى السكنى على 25 ألف وحدة سكنية، بمساحات تتراوح من 130 إلى 180 مترًا مربعًا للوحدة.) لكل طابق، ويختلف مسطح كل وحدة حيث يبدأ من (130 مترًا مربعًا) وحتى (180 مترًا مربعًا) شامل الخدمات. تتكون الشقة من 3 غرف و2 حمام ومطبخ له شرفة وحجرة نوم بحمام مستقلق في المبنى السكني من 4 شقق سكنية و2 مصعد. ');
+        $("#mission .title-parag").html(' إذا كنت تبحث عن مشروع يمثل لك فرصة العمر لتستثمر به أموالك، وتضمن نجاح مشروعك مهما كان مجال عملك فأنت تبحث عن باريس مول العاصمة الإدارية الجديدة، ويعد باريس مول ثالث المشروعات التي قامت بتنفيذها شركة بيراميدز العقارية');
        
         });
 
@@ -42,6 +42,18 @@ $(function () {
           $("#mission .title-parag").html(' يختلف مسطح كل وحدة حيث يبدأ من (130 مترًا مربعًا) وحتى (180 مترًا مربعًا) شامل يتكون كل طابق في المبنى السكني من 4 شقق سكنية و2 مصعد. ');
          
           });
+
+          // $("#featured .row .col-sm img").hover(
+          //   function () {
+          //     $(this).addClass('imgoverlay');
+          //   }, 
+          //   function () {
+          //     $(this).removeClass('imgoverlay');
+          //   }
+          //   );     
+            
+            // featured projects on img hover add text above overlay:
+                      
 
           // start projects data opject//
         //   let projectsData=[
@@ -134,8 +146,19 @@ $(function () {
 
 
 
+          
 
-
+// modal://
+$('#exampleModal').on('show.bs.modal', function (event) {
+  var button = $(event.relatedTarget) // Button that triggered the modal
+  var recipient = button.data('whatever') // Extract info from data-* attributes
+  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+  var modal = $(this)
+  modal.find('.modal-title').text('New message to ' + recipient)
+  modal.find('.modal-body input').val(recipient)
+})
+$('#myModal').modal(options)
 
 
 

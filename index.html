@@ -37,7 +37,7 @@
     <!-- Navbar -->
   <nav class="navbar navbar-expand-lg">
     <div class="container justify-content-between">
-      <a class="navbar-brand" href="index.html"><img src="assets/images/logoWhite.png" alt="LaPlage">
+      <a class="navbar-brand" href="index.html"><img class="image-container" src="assets/images/logoWhite.png" alt="LaPlage">
 
       </a>
       
@@ -115,11 +115,16 @@
   <!--- End Header -->
 <!-- section من نحن -->
 
-  <section class="main"  id="whoWeAre">
-    <div class="container " data-aos="fade-up" data-aos-duration="3000">
-      <div class="row">
+  <section class="main"  id="whoWeAre" >
+    <!-- <img src="assets/images/whoWeAreBackground.jpg" alt=""> -->
+    <img  src="assets/images/Whoresizeimage.jpg" alt=""   data-aos="fade-up" data-aos-duration="3000">
 
- <div class="d-flex justify-content-center">
+    <div  class="container " >
+
+      <div class="row">
+        <!-- <img style="opacity: 0.2;" src="assets/images/whoWeAreBackground.jpg" alt=""> -->
+ <div class="d-flex ">
+   
     <div class="elementor-heading-wrapper "><span
       class="sub-title"><p align="right">من نحن </p>
       </span>
@@ -129,7 +134,10 @@
       </div>
       <span class="plus-sign">+</span>
 <div class="col-md-6" id="counter">520</div> 
-<div><span class="plus-desc">مشروع</span></div>
+<div>
+  <span class="plus-desc">مشروع</span>
+  <div class="img"><img src="assets/images/resedential-dev-icon.png " alt="" data-aos="fade-up"></div>
+</div>
     
 </div>  
       </div>
@@ -137,14 +145,18 @@
 
     </div>
 
+
   </section>
+
   <!-- END section من نحن -->
 
   <!-- start section mission-vission -->
 
-  <section class="main"  id="mission" >
+  <section class="main"  id="mission">
+    
     <div class="container" >
         <div class="row">
+
           <div class="d-flex">
             <div class="col-md-10 rectangle" data-aos="fade-up">
               <div class="col-md-5  ">
@@ -195,16 +207,34 @@
 
       <!-- Gallery start -->
       <div class="row " >
-        <div class="col-sm">
-          <a href=""><div class="thumb1"><img src="assets/images/thumb1resize.jpg" alt=""></div></a>
-          <a href=""><div class="thumb1"><img src="assets/images/thumb2resize.jpg" alt=""></div></a>
+        <div class="col-sm"><a href=""><div class="thumb1">
+            <div class="compound d-flex justify-content-start"> <span class="d-inline-block" style="z-index: 2000;" align="right ">كمباوند أويا </span> </div>
+
+            <img style="z-index: 500;" name="Auoya" src="assets/images/thumb1resize.jpg" alt="">
+          </div>
+
+
+        </a>
+          <a href=""><div class="thumb1">
+            <div class="compound d-flex justify-content-start"> <span class="d-inline-block" style="z-index: 2000;" align="right ">كابيتال هايتس  </span> </div>
+
+            <img name ="capitalHeights"   src="assets/images/thumb2resize.jpg" alt="">
+          </div>
+        </a>
         </div>
         <div class="col-sm">
-          <a href=""><div class="thumb2"><img src="assets/images/thumb5resize.jpg" alt=""></div></a>
+          <a href=""><div class="thumb2">
+            <div class="compound d-flex justify-content-start"> <span class="d-inline-block" style="z-index: 2000;" align="right "> الحي السكني </span> </div>
+
+            <img name="hai-sakani"  src="assets/images/thumbMiddleresize.jpg" alt=""></div></a>
         </div>
         <div class="col-sm">
-          <a href=""><div class="thumb1"><img src="assets/images/thumb3resize.jpg" alt=""></div></a>
-          <a href=""><div class="thumb1"><img src="assets/images/thumb4resize.jpg" alt=""></div></a>
+          <a href=""><div class="thumb1">
+            <div class="compound d-flex justify-content-start"> <span class="d-inline-block" style="z-index: 2000;" align="right ">كمباوند بوسكو </span> </div>
+            <img name="bosco" src="assets/images/thumb3resize.jpg" alt=""></div></a>
+          <a href=""><div class="thumb1">
+            <div class="compound d-flex justify-content-start"> <span class="d-inline-block" style="z-index: 2000;" align="right ">كمباوند أرمونيا </span> </div>
+            <img name="armonia" src="assets/images/thumb4resize.jpg" alt=""></div></a>
         </div>
       </div>
     </div>
@@ -291,11 +321,7 @@
                 </a>
               </div>
            <!-- end slider -->
-           <div class="rec-buttons">
-
-            <button  id="textChanger"  type="button" class="btn btn-primary rec-buttons-next"><i class="fas fa-arrow-right"></i></button>
-          </div>
-
+           
 
             </div>
            
